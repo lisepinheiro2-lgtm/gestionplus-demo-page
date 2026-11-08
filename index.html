@@ -1,0 +1,177 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Gestion+ | Démonstration Windows</title>
+
+    <meta name="description"
+          content="Découvrez Gestion+, un projet Java Swing de gestion du personnel, des interventions et des remplacements. Démonstration Windows téléchargeable.">
+
+    <!-- Prévisualisation LinkedIn -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Gestion+ | Démonstration Windows">
+    <meta property="og:description"
+          content="Découvrez mon projet Java Gestion+ et téléchargez sa première démonstration Windows. Client Swing encore en développement.">
+    <meta property="og:url"
+          content="https://lisepinheiro2-lgtm.github.io/gestionplus-demo-page/">
+    <meta property="og:image"
+          content="https://lisepinheiro2-lgtm.github.io/gestionplus-demo-page/GestionPlus_social_preview_moins_1Mo.jpg">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:alt"
+          content="Gestion+ — logiciel de gestion Java, identité visuelle bleu néon">
+
+    <meta name="twitter:card" content="summary_large_image">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            font-family: "Segoe UI", Arial, sans-serif;
+            background: radial-gradient(ellipse at top, #10283d, #070c16 70%);
+            color: #edf7ff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 32px 18px;
+        }
+
+        main {
+            width: 100%;
+            max-width: 850px;
+            text-align: center;
+        }
+
+        .preview {
+            width: 100%;
+            border-radius: 18px;
+            border: 1px solid #267b9a;
+            box-shadow: 0 0 38px #00c8ff24;
+        }
+
+        h1 {
+            margin: 30px 0 12px;
+            font-size: clamp(2rem, 5vw, 3.2rem);
+            color: #ffffff;
+        }
+
+        .accent {
+            color: #48ddff;
+        }
+
+        p {
+            color: #b8cbd9;
+            line-height: 1.7;
+            max-width: 650px;
+            margin: 16px auto;
+        }
+
+        .status {
+            color: #ffd793;
+            font-size: 0.95rem;
+        }
+
+        .actions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+            margin: 32px 0;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 15px 24px;
+            border-radius: 9px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .button:hover {
+            transform: translateY(-3px);
+        }
+
+        .primary {
+            background: #35d7ff;
+            color: #07111b;
+            box-shadow: 0 0 24px #35d7ff55;
+        }
+
+        .secondary {
+            border: 1px solid #4a839a;
+            color: #d8f5ff;
+        }
+
+        footer {
+            margin-top: 36px;
+            color: #8297a8;
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <img
+            class="preview"
+            src="GestionPlus_social_preview_moins_1Mo.jpg"
+            alt="Présentation visuelle de Gestion+"
+        >
+
+        <h1>Gestion<span class="accent">+</span></h1>
+
+        <p>
+            Projet personnel de logiciel de gestion du personnel,
+            des interventions et des remplacements,
+            développé en Java avec une interface Swing.
+        </p>
+
+        <p class="status">
+            ⚠️ Version expérimentale — Client encore largement incomplet
+        </p>
+
+        <p>
+            Cette démonstration Windows permet de découvrir
+            une partie du travail réalisé.
+            Elle utilise des données entièrement fictives
+            et un stockage CSV local.
+            Elle ne constitue pas une version prête pour la production.
+        </p>
+
+        <div class="actions">
+            <a
+                class="button primary"
+                href="https://github.com/lisepinheiro2-lgtm/gestionplus-client/releases/tag/v0.1.0-demo"
+            >
+                Télécharger la démo Windows
+            </a>
+
+            <a
+                class="button secondary"
+                href="https://github.com/lisepinheiro2-lgtm/gestionplus-client"
+            >
+                Consulter le code source
+            </a>
+        </div>
+
+        <p>
+            Pour essayer l'application : téléchargez le ZIP,
+            extrayez-le entièrement, puis lancez GestionPlus.exe.
+            Java est déjà inclus.
+        </p>
+
+        <footer>
+            Gestion+ — Projet Java en développement
+            <br>
+            Client Swing • Serveur Spring Boot en développement séparé
+        </footer>
+    </main>
+</body>
+</html>
